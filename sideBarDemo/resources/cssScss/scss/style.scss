@@ -1,0 +1,45 @@
+@import "variables";
+@import "reusable";
+@import "buttons";
+@import "basicSetup";
+
+div {
+  font-size: 100px;
+}
+
+aside {
+  position: fixed;
+  background-color: royalblue;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+#mycheck {
+  display: none;
+}
+
+label {
+  position: absolute;
+  color: black;
+  z-index: 1;
+}
+
+#mycheck:checked ~ aside {
+  transform: translate3d(-200px, 0px, 0px);
+}
+
+.close {
+  left: 125px;
+}
+
+.open {
+  display: none;
+}
+
+#mycheck:checked ~ .close {
+  display: none;
+}
+
+#mycheck:checked ~ .open {
+  display: block;
+}
