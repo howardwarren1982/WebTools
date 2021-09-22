@@ -2,29 +2,50 @@
 /*Variables*/
 /*-------------------------- */
 
-//Example
+:root {
+  /*Colors and color theme*/
+
+  --color-primary: blue;
+  --color-secondary: blue;
+  --color-bg: white;
+  --color-contrast-lower: hsl(0, 0%, 95%);
+  --color-contrast-low: hsl(240, 1%, 83%);
+  --color-contrast-medium: hsl(240, 1%, 48%);
+  --color-contrast-high: hsl(240, 4%, 20%);
+  --color-contrast-higher: black;
+
+  /*text*/
+
+  --font-primary: "Helvetica", sans-serif;
+  --font-secondary: "Helvetica", sans-serif;
+
+  --font-base-size: 1rem;
+
+  /*spacing*/
+  --section-spacing: 1em;
+  --heading-spacing: 1em;
+  --button-spacing: 1em;
+  --paragraph-spacing: 1em;
+  --card-spacing: 1em;
+
+  --section-padding: 1em;
+  --heading-padding: 1em;
+  --button-padding: 1em;
+  --paragraph-padding: 1em;
+  --card-padding: 1em;
+}
+//SCSS Example
 
 //Colors
 //$default-color: gray;
 // $font-color: darken($default-color, 60%);
 // $light-color: lighten($default-color, 20%);
 // $dark-color: darken($default-color, 20%);
-// $contrast-color: teal;
-// $warning-color: yellow;
-// $important-color: red;
-// $information-color: blue;
-// $black-color: lighten(black, 5%);
-// $white-color: darken(white, 5%);
-
-
 
 //Text Stacks
 // $helvetica-stack:  'Helvetica', sans-serif;
 // $futura-stack: 'Futura', sans-serif; //not imported yet
 // $georgia-stack: 'Georgia', sans-serif;
-
-
-
 
 //Font-sizes
 // $p-font-size: 16px;
